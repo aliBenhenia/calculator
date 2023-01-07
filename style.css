@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+  user-select: none;
+  
+}
+body{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right,red ,blue);
+  padding-top: 5%;
+  align-items: center;
+  height:1000px;
+}
+.main{
+  width:50%;
+  padding-top: 3%;
+  background:#b48b8b;
+  padding-left: 4%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+.main .display #display{
+  width: 97%;
+  font-weight: bold;
+  padding: 20px;
+  background:#f4f4bd;
+  border: 0;
+  font-size: 2rem;
+}
+.main #operator input {
+  background: #3e6787;
+  margin-top:2%;
+  padding:16px;
+  width:23%;
+  color:#fff;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main #operator input:hover{
+    background:tomato;
+}
+
+#operator #equal{
+  width:48%;
+}
+#operator #equal{
+  
+}
